@@ -48,15 +48,15 @@ background-img: "../img/intro-bg.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+# shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
-delete-delay: 5000
+delete-delay: 1500
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Hello, I'm Koo. My Real Name is 'GooBeom Jeoung'."
+  - text: "Genius is not the answer to all questions; it's the question to all answers - Tablo of Epikhigh"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -85,26 +85,26 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+# enable-gesture-navigation: True
 
-post-preview-words: 96
+# post-preview-words: 96
 
-paginate: 5
+# paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+# email-share: True
+# fb-share: True
+# twitter-share: True
+# linkedin-share: True
+# reddit-share: True
+# google-plus-share: True
+# tumblr-share: True
+# pinterest-share: True
+# pocket-share: True
+# vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+# disqus-shortname: "panossakkos"
 
-syntax-highlight: True
+# syntax-highlight: True
 
 ############
 # Timeline #
@@ -176,10 +176,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
   Contact: 'contact'
+  # About: 'about'
+  Timeline: 'timeline'
+  Blog: 'rssblog'
 
 # Exclusion list from the generated _site
 
