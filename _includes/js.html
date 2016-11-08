@@ -16,7 +16,7 @@
 * For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
 <script>
 function toggleNavCollapse(){
-  var introHeight = $(".intro").outerHeight();
+  var introHeight = $(".intro").outerHeight() - $(".navbar").innerHeight();
 
   introHeight<$(".navbar").offset().top ?
     $(".navbar-fixed-top").addClass("top-nav-collapse")
