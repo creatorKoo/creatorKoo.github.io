@@ -155,42 +155,59 @@ a {
 }
 
 .intro {
-    display: table;
     width: 100%;
-    height: auto;
-    padding: 100px 0;
+    height: 100%;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: url({{ site.background-img }}) no-repeat scroll;
+    background-position: 50% 71px;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    .intro-header {
+        height: 33%;
+    }
     .intro-body {
-        display: table-cell;
-        vertical-align: middle;
+        height: 33%;
+        text-align: center;
         .brand-heading {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 18px;
+            font-size: 26px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
         }
     }
-    @media(min-width:768px) {
+    .intro-footer {
+        height: 33%;
+        a {
+            position: relative;
+            top: 3%;
+            text-align: center;
+            .img-me {
+                margin-left: 2%;
+                width: 10%;
+                min-width: 160px;
+                height: auto;
+            }
+        }
+    }
+    @media(min-width:1024px) {
         height: 100%;
         padding: 0;
         .intro-body {
             .brand-heading {
-                font-size: 100px;
+                font-size: 70px;
             }
             .intro-text {
-                font-size: 26px;
+                font-size: 46px;
             }
         }
     }
@@ -362,10 +379,10 @@ body {
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-    font-size: 16px;
+    font-size: 26px;
     vertical-align: top;
-    @media(min-width:768px) {
-        font-size: 22px;
+    @media(min-width:1024px) {
+        font-size: 46px;
     }
 }
 @keyframes blink{

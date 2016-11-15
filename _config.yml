@@ -43,6 +43,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
 
 background-img: "../img/intro-bg.jpg"
+# current img src: http://www.awesomewallpapers.me/desktop/universe-creator/
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,7 +57,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 1500
 lines: # You can add HTML Tags in the Text
-  - text: "Hello, I'm Koo. My Real Name is 'GooBeom Jeoung'."
+  - text: "Hello, I'm Koo."
+  - text: "My Real Name is 'GooBeom Jeoung'."
   - text: "Genius is not the answer to all questions; it's the question to all answers - Tablo of Epikhigh"
 
 me-img: "/img/jetpacktocat.png"
