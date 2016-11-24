@@ -149,12 +149,12 @@ email: "creator.koo@icloud.com"
 social:
   - title: "facebook"
     url: "https://facebook.com/creatorkoo"
-  - title: "twitter"
-    url: "https://twitter.com/"
+  # - title: "twitter"
+  #   url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/creatorkoo"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  # - title: "bitcoin"
+  #   url: "https://blockchain.info/address/"
   - title: "rss"
     url: "http://blog.koo.world/rss"
 
@@ -168,9 +168,9 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: creatorkoo
 keybase-in-social: True
-keybase-in-footer: True
+# keybase-in-footer: True
 
 ################################################################################
 
